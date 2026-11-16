@@ -77,7 +77,7 @@ Checkpoints are written to `IsaacLab/logs/rsl_rl/<experiment>/<run>/`.
 
 ## Trained policy
 
-[policies/](policies/) holds the Spot posture policy from the run above: the RSL-RL checkpoint and its TorchScript export. The walk–sit–stand demo also needs Isaac's Spot walking policy (`spot_policy.pt`), which is not included here; pass it with `--walk-policy`.
+[policies/](policies/) holds the Spot posture policy from the run above: the RSL-RL checkpoint and its TorchScript export. The walk–sit–stand demo takes Isaac's Spot walking policy (`spot_policy.pt`) through `--walk-policy`.
 
 ```bash
 ./isaaclab.sh -p $REPO/spot_view_tool/scripts/walk_then_sit_policy_switch.py --device cuda:0 --walk-policy /path/to/spot_policy.pt
