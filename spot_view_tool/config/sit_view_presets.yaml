@@ -1,0 +1,66 @@
+presets:
+  stand:
+    base_height: 0.50
+    joints:
+      fl_hx: 0.10
+      fr_hx: -0.10
+      hl_hx: 0.10
+      hr_hx: -0.10
+      fl_hy: 0.90
+      fr_hy: 0.90
+      hl_hy: 1.10
+      hr_hy: 1.10
+      fl_kn: -1.50
+      fr_kn: -1.50
+      hl_kn: -1.50
+      hr_kn: -1.50
+    camera:
+      mode: spot
+      eye_offset: [0.35, 0.0, 0.45]
+      look_yaw_deg: 0.0
+      look_pitch_deg: -8.0
+      look_distance: 2.0
+
+  sit_low:
+    base_height: 0.43
+    joints:
+      fl_hx: 0.10
+      fr_hx: -0.10
+      hl_hx: 0.12
+      hr_hx: -0.12
+      fl_hy: 0.85
+      fr_hy: 0.85
+      hl_hy: 1.45
+      hr_hy: 1.45
+      fl_kn: -1.65
+      fr_kn: -1.65
+      hl_kn: -2.25
+      hr_kn: -2.25
+    camera:
+      mode: spot
+      eye_offset: [0.35, 0.0, 0.35]
+      look_yaw_deg: 0.0
+      look_pitch_deg: -12.0
+      look_distance: 2.0
+
+  sit_orbit_check:
+    base_height: 0.43
+    joints:
+      fl_hx: 0.10
+      fr_hx: -0.10
+      hl_hx: 0.12
+      hr_hx: -0.12
+      fl_hy: 0.85
+      fr_hy: 0.85
+      hl_hy: 1.45
+      hr_hy: 1.45
+      fl_kn: -1.65
+      fr_kn: -1.65
+      hl_kn: -2.25
+      hr_kn: -2.25
+    camera:
+      mode: orbit
+      target_offset: [0.0, 0.0, 0.35]
+      orbit_yaw_deg: 35.0
+      orbit_pitch_deg: 18.0
+      orbit_distance: 2.2

@@ -1,0 +1,8 @@
+[project]
+name = "go2-pitch-tool"
+version = "0.1.0"
+description = "IsaacLab external task: Go2 flat locomotion with an added body-pitch command."
+requires-python = ">=3.11"
+
+[tool.ruff]
+line-length = 120
