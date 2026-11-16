@@ -82,7 +82,3 @@ Checkpoints are written to `IsaacLab/logs/rsl_rl/<experiment>/<run>/`.
 ```bash
 ./isaaclab.sh -p $REPO/spot_view_tool/scripts/walk_then_sit_policy_switch.py --device cuda:0 --walk-policy /path/to/spot_policy.pt
 ```
-
-## Scope
-
-Both policies are trained and evaluated in simulation on flat terrain. They have not been deployed on a real robot.
